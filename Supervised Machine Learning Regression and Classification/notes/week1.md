@@ -57,4 +57,19 @@ Which is a type  of unsupervised learning algorithm,takes data without labels an
 
 # Linear Regression Model 线性回归模型
 
+在机器学习中常用的数据集表示方法有两种
+
+![image-20230428152153266](https://s2.loli.net/2023/04/28/zF1yewkI9nbhOv6.png)
+
+Data table 中每一行都对应了坐标图中的一个点
+
+下面规定了一些符号的表示方法
+
+![image-20230428152303830](https://s2.loli.net/2023/04/28/UhVyo2dHKuZ38bg.png)
+
+![image-20230428152810935](https://s2.loli.net/2023/04/28/Z35SnG76bNXDJga.png)
+
+我们根据training set 可以得到 function 记作$f$，$f(x)=\hat{y}$，这里的$\hat y$ 读作`y-hat`表示的是预测值，而$y$表示真实值，也就是target。
+
+在线性回归中的重点就是如何用数学公式表示$f$
 
